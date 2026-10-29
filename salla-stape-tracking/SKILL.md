@@ -14,6 +14,17 @@ Everything marked **verified** was observed live on production Salla stores (Jul
 
 ---
 
+## Prerequisites (check first)
+
+This skill assumes the store already has both of the following. Confirm them before giving build, audit or debugging steps:
+
+1. An active **Stape.io sGTM container** (Stape's sGTM container hosting) on a first-party subdomain of the store's domain.
+2. The **Stape Conversion Tracking app for Salla** installed on the store and linked to that container.
+
+If either is missing, say so first and point the user to set it up (§2). Do not build workarounds that skip Stape, such as browser-only pixels or Salla's native conversion API apps, as a substitute.
+
+---
+
 ## 0. Working rules (read first)
 
 - Show the user every change before publishing, and let the user (or the container owner) publish GTM versions.

@@ -28,6 +28,15 @@ Ad platforms optimise on the conversions they receive. On Salla stores, browser-
 - Detecting and removing Salla's native pixels and conversion API apps
 - Stape logs, quota and a debugging checklist
 
+## Requirements
+
+This skill works on top of a specific stack. Before using it, the store needs:
+
+1. **An active Stape.io account with a server GTM container** (Stape's *sGTM container hosting*), connected to a first-party subdomain on the store's domain, such as `sgtm.yourstore.com`. Choose the plan based on the store's monthly traffic.
+2. **The Stape Conversion Tracking app installed on the Salla store** from the Salla App Store, and linked to the same Stape container.
+
+Without both, the skill can still explain concepts and review a planned setup, but its build, audit and debugging procedures will not apply.
+
 ## Installation
 
 ### Claude.ai (web and desktop)
@@ -95,6 +104,15 @@ Mitrone implements and audits server-side tracking for Salla and other e-commerc
 - بيانات العميل توصل للمنصات حتى في طلبات الضيف و Apple Pay
 - تعرف المشكلة جاية من إعداداتك ولا من تكاملات سلة القديمة قبل ما تغير أي حاجة
 - تعليمات خطوة بخطوة تقدر تتأكد منها
+
+### المتطلبات
+
+الـ skill دي مبنية على Stack محدد ولازم المتجر يكون عنده:
+
+1. **حساب فعال على Stape.io فيه Server GTM container** (خدمة *sGTM container hosting*) ومربوط بدومين فرعي تبع المتجر زي `sgtm.yourstore.com`. الباقة بتتحدد حسب زيارات المتجر الشهرية.
+2. **تطبيق Stape Conversion Tracking متثبت على متجر سلة** من متجر تطبيقات سلة ومربوط بنفس الـ container.
+
+من غير الاتنين الـ skill تقدر تشرح وتراجع خطة الإعداد بس خطوات البناء والمراجعة والإصلاح مش هتنطبق.
 
 ### التثبيت على claude.ai
 
